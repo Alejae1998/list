@@ -2,23 +2,14 @@ body {
     font-family: 'Fredoka One', cursive;
         sans-serif;
     font-size: 20px;
-    padding: 3px;
-    position: fixed;
-    --color1: #2e3436;
-    --color3: #fbfbfb;
-    --color2: #edb6a3;
-    --color4: #8aa2a9;
-    --color5: #6e9727;
+    padding: 60px;
+    text-indent: 50px;
+    letter-spacing: 5px;
+line-height: 0.8;
+word-spacing: 10px;
+white-space: nowrap;
+    justify-content: flex-end;
+    
 }
 
-.main section {
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
-.image {
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-}
