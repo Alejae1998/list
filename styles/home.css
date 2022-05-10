@@ -1,6 +1,5 @@
 body {
-    font-family: 'Fredoka One', cursive;
-    sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     padding: 60px;
     text-indent: 50px;
@@ -44,11 +43,4 @@ body {
     height: 640px;
     align-content: flex-start;
     position: relative;
-}
-.animal img {
-    width: 100px;
-}
-
-.animal detail {
-
 }
