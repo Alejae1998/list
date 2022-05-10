@@ -32,11 +32,12 @@ body {
 }
 
 main {
-    display: flex;
+    display: flow-root;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    text-indent: 50%;
 }
 
 section {
@@ -53,17 +54,17 @@ section {
     border: solid 2px var(--color1);
 }
 
-header {
+/* header {
     display: flex;
     letter-spacing: 2px;
     justify-content: center;
-    background-color: beige;
-    height: var(--header-height);
+    /* background-color: beige; */
+    /* height: var(--header-height);
     box-shadow: var(--shadow);
-    padding: 70px;
+    padding: 70px; */
     
     
-}
+} */
 
 
 h2 {

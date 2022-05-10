@@ -15,7 +15,7 @@ export const animals = [
         type: 'otter',
         says: 'You are otterly amazing!',
         top: '315px',
-        left: '38%',
+        left: '50%',
     },
     {
         id: '3',
