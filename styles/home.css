@@ -1,7 +1,7 @@
 body {
     font-family: 'Fredoka One', cursive;
         sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     padding: 3px;
     position: fixed;
     --color1: #2e3436;
@@ -15,4 +15,10 @@ body {
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
 }
