@@ -1,8 +1,9 @@
-// import functions and grab DOM elements
+import { animals } from '../animal-detail/data.js';
+import { renderListItem } from './utils.js';
 
-// let state
+const main = document.querySelector('main');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+for (let animal of animals) {
+    const animalDiv = renderListItem(animal);
+    main.append(animalDiv);
+}

@@ -1,1 +1,18 @@
-/* add home page styles here */
+body {
+    font-family: 'Fredoka One', cursive;
+        sans-serif;
+    font-size: 15px;
+    padding: 3px;
+    position: fixed;
+    --color1: #2e3436;
+    --color3: #fbfbfb;
+    --color2: #edb6a3;
+    --color4: #8aa2a9;
+    --color5: #6e9727;
+}
+
+.main section {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
